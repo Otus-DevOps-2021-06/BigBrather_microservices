@@ -9,10 +9,11 @@ HomeWork №16
  - конфигурационный файл для MongoDB;
  - переменная окружения для MongoDB;
  - script для запуска приложения Reddit.
- 2) Образ опубликован на Docker Hub (**bigbrather/otus-reddit**), запуск контейнера (**docker run --name reddit -d -p 9292:9292 bigbrather/otus-reddit:1.0**);
- 3) Задание со * (1):
+ 2) Образ опубликован на Docker Hub (**bigbrather/otus-reddit**):
+ - запуск контейнера (**docker run --name reddit -d -p 9292:9292 bigbrather/otus-reddit:1.0**).
+ 4) Задание со * (1):
  - в файле *docker-monolith/docker-1.log* содержится объяснение, чем отличается контейнер от образа.
- 4) Задание со * (2):
+ 5) Задание со * (2):
  - Создана директория infra c cодержимым:
    - конфигурация для Terraform (запуск **terraform apply**);
    - плейбуки Ansible (запуск **ansible-playbook main.yml**);
