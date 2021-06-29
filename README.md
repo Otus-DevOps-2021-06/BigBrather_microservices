@@ -14,7 +14,7 @@ HomeWork №16
  4) Задание со * (1):
  - в файле *docker-monolith/docker-1.log* содержится объяснение, чем отличается контейнер от образа.
  5) Задание со * (2):
- - Создана директория infra c cодержимым:
+ - создана директория infra c cодержимым:
    - конфигурация для Terraform (запуск **terraform apply**);
    - плейбуки Ansible (запуск **ansible-playbook main.yml**);
    - конфигурация для сборки образа Packer (запуск **packer build -var-file=variables.json app.json**).
