@@ -4,6 +4,7 @@ RUN apt-get update && apt-get install -y ruby-full=1:2.3.0+1 ruby-dev=1:2.3.0+1 
 
 ENV APP_HOME /app
 RUN mkdir $APP_HOME
+
 WORKDIR $APP_HOME
 COPY Gemfile* $APP_HOME/
 RUN bundle install
