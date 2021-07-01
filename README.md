@@ -58,8 +58,4 @@ HomeWork №18
  - запуск сервисов производится из директории docker командой **docker-compose up -d**, для остановки сервисов **docker-compose down**.
  2) Задание со * (1):
  - добавлен мониторинг MongoDB c помощью экспортера bitnami/mongodb-exporter.
- Ссылки на образы в Docker Hub:
- - [UI](https://hub.docker.com/repository/docker/bigbrather/ui)
- - [Post](https://hub.docker.com/repository/docker/bigbrather/post)
- - [Comment](https://hub.docker.com/repository/docker/bigbrather/comment)
- - [Prometheus](https://hub.docker.com/repository/docker/bigbrather/prometheus)
+ Ссылки на образы в Docker Hub: [UI](https://hub.docker.com/repository/docker/bigbrather/ui), [Post](https://hub.docker.com/repository/docker/bigbrather/post), [Comment](https://hub.docker.com/repository/docker/bigbrather/comment), [Prometheus](https://hub.docker.com/repository/docker/bigbrather/prometheus).
