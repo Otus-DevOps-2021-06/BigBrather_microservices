@@ -46,3 +46,20 @@ HomeWork №18
  1) Основное задание:
  - в файле gitlab-ci.yml в корне репозитория описаны этапы pipeline GitLab CI;
  - в gitlab-ci/docker-compose.yml описана конфигурация для запуска.
+ 
+ HomeWork №22
+---
+При выполнении домашнего задания с лекции №22, было выполнено:
+ 1) Основное задание:
+ - перенос конфигурации **docker-compose** в директорию **docker**;
+ - в **ocker-compose.yml** добавлен сервис **prometheus** с приложением для монинторинга и **node-exporter** в качестве экспортера для сбора метрик с хоста;
+ - конфигурация prometheus и Dockerfile для сборки образа находится в **monitoring/prometheus**;
+ - build образов производиться одной командой из основной директории **for i in ui post-py comment; do cd src/$i; bash docker_build.sh; cd -; done**;
+ - запуск сервисов производится из директории docker командой **docker-compose up -d**, для остановки сервисов **docker-compose down**.
+ 2) Задание со * (1):
+ - добавлен мониторинг MongoDB c помощью экспортера bitnami/mongodb-exporter.
+ Ссылки на образы в Docker Hub:
+ - [UI](https://hub.docker.com/repository/docker/bigbrather/ui)
+ - [Post](https://hub.docker.com/repository/docker/bigbrather/post)
+ - [Comment](https://hub.docker.com/repository/docker/bigbrather/comment)
+ - [Prometheus](https://hub.docker.com/repository/docker/bigbrather/prometheus)
