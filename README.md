@@ -60,3 +60,17 @@ HomeWork №18
  - добавлен мониторинг MongoDB c помощью экспортера bitnami/mongodb-exporter.
  
  Ссылки на образы в Docker Hub: [UI](https://hub.docker.com/repository/docker/bigbrather/ui), [Post](https://hub.docker.com/repository/docker/bigbrather/post), [Comment](https://hub.docker.com/repository/docker/bigbrather/comment), [Prometheus](https://hub.docker.com/repository/docker/bigbrather/prometheus).
+ 
+ HomeWork №23
+---
+При выполнении домашнего задания с лекции №23, было выполнено:
+ 1) Основное задание:
+ - мониторинг Docker контейнеров;
+ - визуализация метрик, сбор метрик работы приложения и бизнес метрик с помощью;
+ - настройка и проверка алёртинга с помощью AlertManager.
+ 
+ Была проведена работа с cAdvisor UI, Grafana, Prometheus, AlertManager.
+ 
+ Ссылки на образы в Docker Hub:
+ [UI](https://hub.docker.com/repository/docker/bigbrather/ui), [Comment](https://hub.docker.com/repository/docker/bigbrather/comment), [Post](https://hub.docker.com/repository/docker/bigbrather/post), [Prometheus](https://hub.docker.com/repository/docker/bigbrather/prometheus), [AlertManager](https://hub.docker.com/repository/docker/bigbrather/alertmanager).
+ 
