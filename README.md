@@ -74,3 +74,13 @@ HomeWork №18
  Ссылки на образы в Docker Hub:
  [UI](https://hub.docker.com/repository/docker/bigbrather/ui), [Comment](https://hub.docker.com/repository/docker/bigbrather/comment), [Post](https://hub.docker.com/repository/docker/bigbrather/post), [Prometheus](https://hub.docker.com/repository/docker/bigbrather/prometheus), [AlertManager](https://hub.docker.com/repository/docker/bigbrather/alertmanager).
  
+ HomeWork №25
+---
+При выполнении домашнего задания с лекции №25, было выполнено:
+ 1) Основное задание:
+ - подготовка окружающей среды;
+ - логирование контейнеров Docker;
+ - сбор неструктурированных журналов;
+ - визуализация журналов;
+ - сбор структурированных журналов;
+ - распределенное отслеживание.
