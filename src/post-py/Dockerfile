@@ -1,10 +1,10 @@
-FROM python:3.6.0-alpine
+FROM python:3.6.5-alpine
 
 WORKDIR /app
-ADD . /app
+COPY . /app
 
-RUN apk --no-cache --update add build-base && \
-    pip install --upgrade -r /app/requirements.txt && \
+RUN apk --no-cache --update add build-base=0.5-r0 && \
+    pip install -r /app/requirements.txt --no-cache-dir && \
     apk del build-base
 
 ENV POST_DATABASE_HOST post_db
