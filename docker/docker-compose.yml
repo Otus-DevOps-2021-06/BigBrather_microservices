@@ -20,6 +20,7 @@ services:
     #  - ${EXT_PORT}:9292/tcp
       - 9292:9292/tcp
     networks:
+      - back_net
       - front_net
       - monitoring_2
     logging:
@@ -35,7 +36,6 @@ services:
     networks:
       - back_net
       - front_net
-      - monitoring_2
     logging:
       driver: "fluentd"
       options:
