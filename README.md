@@ -106,4 +106,4 @@ HomeWork №18
 
 Произведено развёртывание полноценного Kubernetes-Cluster в Yandex.Cloude.
 
-Открыть приложение можно по адресу http://<node-ip>:<NodePort>
+Открыть приложение можно по адресу http://node-ip:NodePort
