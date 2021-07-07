@@ -1,7 +1,9 @@
-cloud_id                 = "b1g0637n5f6reke9rec5"
-folder_id                = "b1gebvq715n3hd8aurhq"
-zone                     = "ru-central1-a"
-public_key_path          = "~/.ssh/ssh_key.pub"
-service_account_key_file = "/home/heroku/yandex-cloud/IAM_key/key.json"
-master_count             = 1
-worker_count             = 1
+cloud_id                  = "aaaa"
+folder_id                 = "aaaa"
+zone                      = "ru-central1-a"
+public_key_path           = "~/.ssh/id_rsa.pub"
+subnet_id                 = "aaaa"
+service_account_key_file  = "~/kaey.json"
+private_ssh_path          = "~/.ssh/id_rsa"
+image                     = "aaaa"
+count_node                = "aaaa"

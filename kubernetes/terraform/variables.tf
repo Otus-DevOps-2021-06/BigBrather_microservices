@@ -1,24 +1,30 @@
-variable cloud_id {
-  description = "Cloud ID"
+variable "cloud_id" {
+  description = "Cloud"
 }
-variable folder_id {
-  description = "Folder ID"
+variable "folder_id" {
+  description = "Folder"
 }
-variable zone {
+variable "zone" {
   description = "Zone"
-  default     = "ru-central1-a"
+  # Значение по умолчанию
+  default = "ru-central1-a"
 }
-variable master_count {
-  description = "Count of k8s master nodes"
-  default     = "1"
-}
-variable worker_count {
-  description = "Count of k8s worker nodes"
-  default     = "1"
-}
-variable public_key_path {
+variable "public_key_path" {
+  # Описание переменной
   description = "Path to the public key used for ssh access"
 }
-variable service_account_key_file {
-  description = "key.json"
+variable "subnet_id" {
+  description = "Subnet"
+}
+variable "service_account_key_file" {
+  description = "key .json"
+}
+variable "private_ssh_path" {
+  description = "Path to the private ssh key to connect via provision"
+}
+variable "image" {
+  description = "Disk image for nodes"
+}
+variable "count_node" {
+  description = "Number of virtual machines"
 }
