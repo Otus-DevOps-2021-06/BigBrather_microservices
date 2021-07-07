@@ -104,6 +104,6 @@ HomeWork №18
  - получение внешнего IP-адреса node cluster:
  - получение порта публикации ui-service.
 
-Произведено развёртывание полноценного Kubernetes-Cluster в Yandex.Cloude.
+Произведено развёртывание Kubernetes-Cluster в Yandex.Cloude.
 
 Открыть приложение можно по адресу http://node-ip:node-port
