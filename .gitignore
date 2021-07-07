@@ -1,2 +1,6 @@
-# for docker-4
 .env
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.backup
+*.tfvars
+.terraform/
