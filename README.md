@@ -107,3 +107,16 @@ HomeWork №18
 Произведено развёртывание Kubernetes-Cluster в Yandex.Cloude.
 
 Открыть приложение можно по адресу http://node-ip:node-port
+
+ HomeWork №29
+---
+При выполнении домашнего задания с лекции №29, было выполнено:
+ 1) Основное задание:
+ - Ingress Controller;
+ - Ingress;
+ - Secret;
+ - TLS;
+ - LoadBalancer Service;
+ - Network Policies;
+ - PersistentVolumes;
+ - PersistentVolumeClaims.
