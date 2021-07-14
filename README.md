@@ -120,3 +120,19 @@ HomeWork №18
  - Network Policies;
  - PersistentVolumes;
  - PersistentVolumeClaims.
+
+ HomeWork №30
+---
+При выполнении домашнего задания с лекции №30, было выполнено:
+ 1) Основное задание:
+ - добавлен Chart для развёртывания GitLab CI (kubernetes/Charts/gitlab-omnibus);
+ - произведён запуск CI/CD конвейера в Kubernetes;
+ - конфигурации GitLab CI для компонентов приложения.
+
+ HomeWork №31
+---
+При выполнении домашнего задания с лекции №31, было выполнено:
+ 1) Основное задание:
+ - добавлен Chart Prometheus для мониторинга (kubernetes/Charts/prometheus);
+ - добавлен Chart Kibana для логирования (kubernetes/Charts/kibana);
+ - добавлены Kubernetes-манифесты для ElasticSearch и Fluentd (kubernetes/efk).
