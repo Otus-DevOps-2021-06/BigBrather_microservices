@@ -1,0 +1,23 @@
+comment:
+  image:
+    repository: bigbrather/comment
+    tag: latest
+  service:
+    externalPort: 9292
+
+post:
+  image:
+    repository: bigbrather/post
+    tag: latest
+  service:
+    externalPort: 5000
+
+ui:
+  image:
+    repository: bigbrather/ui
+    tag: latest
+  service:
+    externalPort: 9292
+
+mongodb:
+  usePassword: false
